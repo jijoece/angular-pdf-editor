@@ -1,0 +1,10 @@
+
+  <div>
+    <iframe [src]="pdfSrc | safeUrl" width="100%" height="500px"></iframe>
+  </div>
+  <button (click)="onSubmit()">Submit</button>
+  <div *ngIf="formData">
+    <h3>Extracted Form Data:</h3>
+    <pre>{{ formData | json }}</pre>
+  </div>
+  
