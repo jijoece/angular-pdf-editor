@@ -33,13 +33,13 @@ export class PdfEditorComponent implements OnInit {
   }
 
   async onSubmit() {
-    const updatedPdfDoc = await PDFDocument.load(this.pdfSrc);
-    if (updatedPdfDoc) {
+    if (this.pdfDoc) {
        
       //this.pdfCreatorService.downloadPdf(this.filledPdfBytes);
-       const extractedData = await this.pdfService.extractPdfData(updatedPdfDoc);
+       const extractedData = await this.pdfService.extractPdfData(this.pdfDoc);
       // //console.log('Extracted Data:', extractedData); 
        this.formData = extractedData;
     }
+  
   }
 }
