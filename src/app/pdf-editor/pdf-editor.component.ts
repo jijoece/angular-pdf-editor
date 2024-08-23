@@ -81,6 +81,7 @@ export class PdfEditorComponent implements OnInit {
        console.log('Extracted Data:', extractedData); 
        this.formData = extractedData;
     }
+  
   }
 }
 
