@@ -8,8 +8,8 @@ const routes: Routes = [
   { path: 'pdf-viewer', component: PdfViewerComponent },
   { path: 'pdf-editor', component: PdfEditorComponent },
   { path: 'pdf-creator', component: PdfCreatorComponent },
-  { path: '', redirectTo: 'pdf-creator', pathMatch: 'full' },
-  { path: '**', redirectTo: '/pdf-creator' }
+  { path: '', redirectTo: 'pdf-editor', pathMatch: 'full' },
+  { path: '**', redirectTo: '/pdf-editor' }
 ];
 
 @NgModule({
