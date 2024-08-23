@@ -125,6 +125,24 @@ export class PdfUtilService {
       return value;
     };
   }
+
+
+  async savePdf(pdfBytes: Uint8Array, fileName: string): Promise<void> {
+    // Create a Blob from the PDF bytes
+    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+    
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = fileName;
+
+    // Append to the document and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Cleanup
+    document.body.removeChild(link);
+  }
 }
 interface PdfField {
   [key: string]: string | boolean;

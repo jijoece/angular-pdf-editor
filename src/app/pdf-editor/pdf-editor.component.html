@@ -1,7 +1,11 @@
 
   <div>
-    <iframe [src]="pdfSrc | safeUrl" width="100%" height="500px"></iframe>
+    <iframe #pdfIframe [src]="pdfSrcUrl | safeUrl" width="100%" height="500px"></iframe>
   </div>
+
+  <!-- <div>
+    <canvas id="pdf-canvas"></canvas>
+  </div> -->
   <button (click)="onSubmit()">Submit</button>
   <div *ngIf="formData">
     <h3>Extracted Form Data:</h3>
