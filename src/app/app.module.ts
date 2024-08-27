@@ -7,6 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { PdfEditorComponent } from './pdf-editor/pdf-editor.component';
 import { SafeUrlPipe } from './safeurl';
 import { PdfCreatorComponent } from './pdf-creator/pdf-creator.component';
+import { NgxPdfEditorComponent } from './ngx-pdf-editor/ngx-pdf-editor.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
 
 
 @NgModule({
@@ -16,12 +19,15 @@ import { PdfCreatorComponent } from './pdf-creator/pdf-creator.component';
     PdfEditorComponent,
     SafeUrlPipe,
     PdfCreatorComponent,
+    NgxPdfEditorComponent,
+    ExamplePdfViewerComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,8 @@
+
+  <ngx-extended-pdf-viewer #pdfViewer [(formData)]="formData" [src]="pdfUrl">
+  </ngx-extended-pdf-viewer>
+  <button (click)="onSubmit()">Submit</button>
+  <div *ngIf="formData">
+    <h3>Extracted Form Data:</h3>
+    <pre>{{ formData | json }}</pre>
+  </div>

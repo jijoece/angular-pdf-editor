@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PdfService } from '../pdf.service';
-import * as pdfjsLib from 'pdfjs-dist';
-import 'pdfjs-dist/build/pdf.worker.entry';
+//import * as pdfjsLib from 'pdfjs-dist';
+//import 'pdfjs-dist/build/pdf.worker.entry';
 
 
 @Component({
@@ -29,25 +29,25 @@ export class PdfViewerComponent implements OnInit {
   }
 
   renderPdf(pdfBytes: ArrayBuffer) {
-    console.log("pdfjsLib", pdfjsLib);
-    const loadingTask = pdfjsLib.getDocument({ data: pdfBytes });
-    loadingTask.promise.then((pdf: any) => {
-      pdf.getPage(1).then((page: any) => {
-        const scale = 1.5;
-        const viewport = page.getViewport({ scale });
+    // console.log("pdfjsLib", pdfjsLib);
+    // const loadingTask = pdfjsLib.getDocument({ data: pdfBytes });
+    // loadingTask.promise.then((pdf: any) => {
+    //   pdf.getPage(1).then((page: any) => {
+    //     const scale = 1.5;
+    //     const viewport = page.getViewport({ scale });
 
-        const canvas = document.getElementById('pdfCanvas') as HTMLCanvasElement;
-        const context = canvas.getContext('2d')!;
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
+    //     const canvas = document.getElementById('pdfCanvas') as HTMLCanvasElement;
+    //     const context = canvas.getContext('2d')!;
+    //     canvas.height = viewport.height;
+    //     canvas.width = viewport.width;
 
-        const renderContext = {
-          canvasContext: context,
-          viewport
-        };
-        page.render(renderContext);
-      });
-    });
+    //     const renderContext = {
+    //       canvasContext: context,
+    //       viewport
+    //     };
+    //     page.render(renderContext);
+    //   });
+    // });
   }
 
   async onSubmit() {
