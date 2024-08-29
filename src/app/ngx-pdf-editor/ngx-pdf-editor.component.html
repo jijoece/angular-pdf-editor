@@ -1,8 +1,17 @@
+<table>
+  <tr>
+    <td style="width:50%">
+      <ngx-extended-pdf-viewer #pdfViewer [(formData)]="formData" [src]="pdfUrl" [height]="'90vh'" pageViewMode="single">
+      </ngx-extended-pdf-viewer>
+    </td>
+    <td style="width:50%">
+      <img src="">
+    </td>
+  </tr>
+</table>
 
-  <ngx-extended-pdf-viewer #pdfViewer [(formData)]="formData" [src]="pdfUrl">
-  </ngx-extended-pdf-viewer>
-  <button (click)="onSubmit()">Submit</button>
-  <div *ngIf="formData">
-    <h3>Extracted Form Data:</h3>
-    <pre>{{ formData | json }}</pre>
-  </div>
+<!-- <button (click)="onSubmit()">Submit</button> -->
+<div *ngIf="formData">
+  <h3>Extracted Form Data:</h3>
+  <pre>{{ formData | json }}</pre>
+</div>
