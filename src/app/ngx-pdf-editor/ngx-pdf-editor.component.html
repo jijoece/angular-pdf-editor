@@ -2,11 +2,5 @@
   <div class="item"><ngx-extended-pdf-viewer #pdfViewer [(formData)]="formData" [src]="pdfUrl" [height]="'100vh'"
       pageViewMode="single">
     </ngx-extended-pdf-viewer></div>
-  <div class="item"><img src="/assets/IMG_0013.jpeg"  max-height="100" width="70%"></div>
-</div>
-
- <button (click)="onSubmit()">Submit</button> 
-<div *ngIf="formData">
-  <h3>Extracted Form Data:</h3>
-  <pre>{{ formData | json }}</pre>
+  <div class="item"><img src="/assets/Page_1.tiff"  max-height="100" width="70%"></div>
 </div>
