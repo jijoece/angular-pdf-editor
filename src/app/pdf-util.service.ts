@@ -17,10 +17,10 @@ export class PdfUtilService {
     const form = pdfDoc.getForm();
     const fields = form.getFields();
 
-    // fields.forEach(field => {
-    //   console.log(field.getName());
+    fields.forEach(field => {
+      console.log(field.getName());
 
-    // });
+    });
 
     Object.keys(data).forEach(key => {
       const field = form.getField(key);
