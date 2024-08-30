@@ -10,6 +10,7 @@ import { PdfCreatorComponent } from './pdf-creator/pdf-creator.component';
 import { NgxPdfEditorComponent } from './ngx-pdf-editor/ngx-pdf-editor.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
+import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-view
     PdfCreatorComponent,
     NgxPdfEditorComponent,
     ExamplePdfViewerComponent,
+    DynamicFormComponent,
     
   ],
   imports: [

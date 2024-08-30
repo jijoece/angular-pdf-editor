@@ -1,0 +1,2355 @@
+{
+  "assessmentNumber": "CNC_HRSTV3KA_10212021",
+  "id": 5036,
+  "sourceSystemAssessmentId": "zjt68zr6-8856-3634-8429-638960000000",
+  "sourceSystemCode": "TC",
+  "questions": [
+    {
+      "order": 0,
+      "questionNumber": "CNC_MBRDCLNDHRST1_09212021",
+      "id": 1100529,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-2460-029020000000",
+      "required": true,
+      "type": 5,
+      "description": "Member Declined HRST",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Assessment Completion Choice",
+      "tabsequence": 0,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 0,
+      "questionNumber": "CNC_MBRDCLNDHRSTREFUSEDTOANS_LBL",
+      "id": 1101347,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-2460-903810000000",
+      "required": false,
+      "type": 7,
+      "description": "If member declined, for all following required questions choose \"Refused to Answer\"",
+      "displaydetail": false,
+      "conditionalanswervalue": "Yes",
+      "questionGroupLabel": "Assessment Completion Choice",
+      "tabsequence": 0,
+      "conditionalanswervalueid": 1100529,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1000,
+      "questionNumber": "CNC_HRSTV2RELATIONSHIP2_TXT",
+      "id": 1100415,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8348-531100000006",
+      "required": false,
+      "type": 3,
+      "description": "Name and relationship of individual completing survey if not the Member:",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": 1101503,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1000,
+      "questionNumber": "CNC_HRSTV2RELATIONSHIP1_TXT",
+      "id": 1100624,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8265-882970000000",
+      "required": false,
+      "type": 3,
+      "description": "Name and relationship of individual completing survey if not the Member:",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": 1101113,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1000,
+      "questionNumber": "CNC_HRSTV2DATECOMPLETE_DATE",
+      "id": 1100679,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8274-371360000000",
+      "required": true,
+      "type": 4,
+      "description": "Date of Completion",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1000,
+      "questionNumber": "CNC_HRSTV2RELATIONSHIP_TXT",
+      "id": 1101317,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8325-345840000000",
+      "required": false,
+      "type": 3,
+      "description": "Name and relationship of individual completing survey if not the Member:",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": 1100595,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1001,
+      "questionNumber": "CNC_HRSTV2COMPLETINGSURVEY_LABEL",
+      "id": 1101258,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8273-071640000000",
+      "required": false,
+      "type": 7,
+      "description": "Complete the following statement. I am answering this survey about:",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 1,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1002,
+      "questionNumber": "CNC_HRSTV2MYSELF_CKBX",
+      "id": 1100413,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8273-791680000000",
+      "required": false,
+      "type": 10,
+      "description": "Myself",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 2,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1003,
+      "questionNumber": "CNC_HRSTV2CHILD_CONCKBX",
+      "id": 1101503,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8272-284100000000",
+      "required": false,
+      "type": 10,
+      "description": "My Child",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 3,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1004,
+      "questionNumber": "CNC_RSTV2PERSONCAREFOR_CONCKBX",
+      "id": 1100595,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8268-954630000000",
+      "required": false,
+      "type": 10,
+      "description": "Another person for whom I provide care",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 4,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1005,
+      "questionNumber": "CNC_HRSTV2OTHER1_CONCKBX",
+      "id": 1101113,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7245-829120000000",
+      "required": false,
+      "type": 10,
+      "description": "Other",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 5,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1006,
+      "questionNumber": "CNC_HRSTV2NORESPONSE_CKBX",
+      "id": 1100494,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8265-147700000000",
+      "required": false,
+      "type": 10,
+      "description": "No Response",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 6,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1007,
+      "questionNumber": "CNC_HRSTV2SURVEYRESULTS_LABEL",
+      "id": 1100700,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7491-598410000000",
+      "required": false,
+      "type": 7,
+      "description": "For the rest of the survey, please think about the person you selected in Question 2 when answering the questions. Please select the option that best describes him or her.",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 7,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 1008,
+      "questionNumber": "CNC_HRSTV2HEALTHIS_DD",
+      "id": 1101167,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7472-635940000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you feel your health is:",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 8,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Excellent"
+        },
+        {
+          "sequence": 2,
+          "value": "Very Good"
+        },
+        {
+          "sequence": 3,
+          "value": "Fair"
+        },
+        {
+          "sequence": 4,
+          "value": "Poor"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1009,
+      "questionNumber": "CNC_HRSTV2PCPV1_DD",
+      "id": 1100349,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-2478-189050000001",
+      "required": true,
+      "type": 5,
+      "description": "Have you seen a Primary Care Provider (PCP) in the last twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 9,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1010,
+      "questionNumber": "CNC_HRSTV2SPECIALIST_DD",
+      "id": 1101450,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7469-525970000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have a specialist(s) that you see on a regular basis?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 10,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA tirggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1011,
+      "questionNumber": "CNC_HRSTV2INTERESTINTHINGS",
+      "id": 1101488,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7468-474680000000",
+      "required": true,
+      "type": 5,
+      "description": "Over the past two (2) weeks, how often have you been bothered by having little interest or pleasure in doing things?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 11,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Not at all"
+        },
+        {
+          "sequence": 2,
+          "value": "Several Days"
+        },
+        {
+          "sequence": 3,
+          "value": "More than half of the days"
+        },
+        {
+          "sequence": 4,
+          "value": "Nearly every day"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1012,
+      "questionNumber": "CNC_HRSTV2DEPRESSION_DD",
+      "id": 1100637,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7459-388790000000",
+      "required": true,
+      "type": 5,
+      "description": "Over the past two (2) weeks, how often have you been bothered by feeling down, depressed, or hopeless?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 12,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Not at all"
+        },
+        {
+          "sequence": 2,
+          "value": "Several Days"
+        },
+        {
+          "sequence": 3,
+          "value": "More than half of the days"
+        },
+        {
+          "sequence": 4,
+          "value": "Nearly every day"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1013,
+      "questionNumber": "CNC_HRSTV2ERVISITS_DD",
+      "id": 1100925,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7458-661160000000",
+      "required": true,
+      "type": 5,
+      "description": "How many ER visits in the past six (6) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 13,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "0 Visits"
+        },
+        {
+          "sequence": 2,
+          "value": "1-2 Visits"
+        },
+        {
+          "sequence": 3,
+          "value": "3-4 Visits"
+        },
+        {
+          "sequence": 4,
+          "value": "5 or more Visits (HRA triggered)"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1014,
+      "questionNumber": "CNC_HRSTV2HOSPITALIZATION_DD",
+      "id": 1100706,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7456-677290000000",
+      "required": true,
+      "type": 5,
+      "description": "How many unplanned hospitalizations in the last twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 14,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "0 Visits"
+        },
+        {
+          "sequence": 2,
+          "value": "1-2 Visits"
+        },
+        {
+          "sequence": 3,
+          "value": "3-4 Visits"
+        },
+        {
+          "sequence": 4,
+          "value": "5 or more Visits (HRA triggered)"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1015,
+      "questionNumber": "CNC_HRSTV2DENTIST_DD",
+      "id": 1101565,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7455-956920000000",
+      "required": true,
+      "type": 5,
+      "description": "Have you seen a dentist in the last twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 15,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1016,
+      "questionNumber": "CNC_HRSTV2FLUSHOT_DD",
+      "id": 1100726,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7455-088890000000",
+      "required": true,
+      "type": 5,
+      "description": "Have you had a flu shot in the last twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 16,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1017,
+      "questionNumber": "CNC_HRSTV4IMMUNIZATIONS_DD",
+      "id": 1100587,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-3223-869480000001",
+      "required": true,
+      "type": 5,
+      "description": "Are you up to date on your immunizations?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 17,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1018,
+      "questionNumber": "CNC_HRSTV4EYEEXAM_DD",
+      "id": 1101141,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-3224-711330000000",
+      "required": true,
+      "type": 5,
+      "description": "Have you had an eye exam in the last twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 18,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 1019,
+      "questionNumber": "CNC_HRSTV2HEALTSCORE9ORMOE_DD",
+      "id": 1101352,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-7452-678850000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the Total Score for the Health Status 9 or more? (HRA triggered if \"Yes\")",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Status",
+      "tabsequence": 1,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 19,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 2000,
+      "questionNumber": "CNC_HRSTV2PREGNANTV1_DD",
+      "id": 1100980,
+      "sourceSystemQuestionId": "doil4ky2-0066-0632-4226-832430000002",
+      "required": true,
+      "type": 5,
+      "description": "For child bearing females: Are you pregnant or do you suspect that you are pregnant?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA triggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2001,
+      "questionNumber": "CNC_HRSTV2CHRONICCONDITIONS_DD",
+      "id": 1100318,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8253-991200000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have any physical or behavioral health conditions where you are or told that you should be under the care of a doctor?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 1,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA tirggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2002,
+      "questionNumber": "CNC_HRSTV2CHRONICCONDITIONS1_DD",
+      "id": 1100603,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8306-315800000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have two or more chronic conditions such as heart disease, arthritis, diabetes, asthma, dementia, bi-polar disorder, schizophrenia?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 2,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA tirggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2003,
+      "questionNumber": "CNC_HRSTV2PAIN_DD",
+      "id": 1100735,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7397-223470000000",
+      "required": true,
+      "type": 5,
+      "description": "In the last seven (7) days how would you rate your pain on a scale of 0-10 with zero being no pain to 10 being excruciating pain?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 3,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Pain Rating 0"
+        },
+        {
+          "sequence": 2,
+          "value": "Pain Rating 1"
+        },
+        {
+          "sequence": 3,
+          "value": "Pain Rating 2"
+        },
+        {
+          "sequence": 4,
+          "value": "Pain Rating 3"
+        },
+        {
+          "sequence": 5,
+          "value": "Pain Rating 4"
+        },
+        {
+          "sequence": 6,
+          "value": "Pain Rating 5"
+        },
+        {
+          "sequence": 7,
+          "value": "Pain Rating 6"
+        },
+        {
+          "sequence": 8,
+          "value": "Pain Rating 7"
+        },
+        {
+          "sequence": 9,
+          "value": "Pain Rating 8"
+        },
+        {
+          "sequence": 10,
+          "value": "Pain Rating 9"
+        },
+        {
+          "sequence": 11,
+          "value": "Pain Rating 10  (HRA triggered)"
+        },
+        {
+          "sequence": 12,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 13,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2004,
+      "questionNumber": "CNC_HRSTV2EMEDSV1_DD",
+      "id": 1101682,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1940-778740000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you take four (4) or more prescription medications on a regular basis?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 4,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes  (HRA triggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2005,
+      "questionNumber": "CNC_HRSTV2MEDICATIONSASPRESCRIBED_DD",
+      "id": 1101205,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8150-575820000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you take your medications as prescribed and instructed by your doctor?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 5,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2006,
+      "questionNumber": "CNC_HRSTV2MEDICINE_DD",
+      "id": 1101743,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7395-260290000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have any concerns about your medicines?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 6,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2007,
+      "questionNumber": "CNC_HRSTV3MEDEQUIPMENT_DD",
+      "id": 1100803,
+      "sourceSystemQuestionId": "b87zasn5-1879-1637-2502-053120000002",
+      "required": true,
+      "type": 5,
+      "description": "Do you use any medical equipment currently? (excluding cane, walker, crutches, nebulizer, diabetic supplies)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 7,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2008,
+      "questionNumber": "CNC_HRSTV3ADL_DD",
+      "id": 1100769,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1961-544470000001",
+      "required": true,
+      "type": 5,
+      "description": "Do you need help with activities of daily living? (e.g., bathing, medication, feeding)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 8,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2009,
+      "questionNumber": "CNC_HRSTV3FILLININOHTWTBMI_LBL",
+      "id": 1101732,
+      "sourceSystemQuestionId": "b87zasn5-1879-1637-2504-076200000000",
+      "required": false,
+      "type": 7,
+      "description": "Fill in information below; if member refused, enter \"0\" for weight, height, and BMI",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 9,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 2010,
+      "questionNumber": "CNC_HRSTV3WT_TXT",
+      "id": 1100828,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-2992-799640000006",
+      "required": true,
+      "type": 3,
+      "description": "What is your current weight? (Enter weight in pounds; use round numbers only)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 10,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 2011,
+      "questionNumber": "CNC-HRSTV3HT_TXT",
+      "id": 1100787,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-2993-655220000000",
+      "required": true,
+      "type": 3,
+      "description": "What is your current height? (Enter height in inches; use round numbers only)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 11,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 2012,
+      "questionNumber": "CNC_HSTV2BMI_TXT",
+      "id": 1100717,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7389-076160000000",
+      "required": true,
+      "type": 3,
+      "description": "Current BMI",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 12,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 2013,
+      "questionNumber": "CNC_BMILESS18GREATR30_DD",
+      "id": 1100433,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7388-054670000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the member's BMI Less than 18 or Greater than 30?(List BMI in details box)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 13,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA triggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 2014,
+      "questionNumber": "CNC_HRSTV2SELFHARM_DD",
+      "id": 1100347,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7386-495720000000",
+      "required": true,
+      "type": 5,
+      "description": "In the past 12 months, have you ever thought about harming yourself or others?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 14,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA tirggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 2015,
+      "questionNumber": "CNC_HRSTV2TOTALHEALTHSCORE5_DD",
+      "id": 1100291,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7385-804250000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the Total Score for the Health Conditions 5 or more? (HRA triggered if \"Yes\")",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Conditions",
+      "tabsequence": 2,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 15,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 3000,
+      "questionNumber": "CNC_HRSTV2SMOKELESSTOBACCOV1_DD",
+      "id": 1100830,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1964-451810000001",
+      "required": true,
+      "type": 5,
+      "description": "Do you currently use tobacco or electronic cigarettes or vaping products?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3001,
+      "questionNumber": "CNC_HRSTV3SMOKE_DD",
+      "id": 1101662,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1965-820540000000",
+      "required": true,
+      "type": 5,
+      "description": "Have you used smokeless tobacco products in the last thirty (30) days?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 1,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3002,
+      "questionNumber": "CNC_HRSTV2ALCOHOL_DD",
+      "id": 1101452,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7378-031990000000",
+      "required": true,
+      "type": 5,
+      "description": "How often do you have (six (6) for women/eight (8) for men) or more drinks in a single occasion?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 2,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Never"
+        },
+        {
+          "sequence": 2,
+          "value": "Less than Monthly"
+        },
+        {
+          "sequence": 3,
+          "value": "Monthly"
+        },
+        {
+          "sequence": 4,
+          "value": "Weekly (HRA triggered)"
+        },
+        {
+          "sequence": 5,
+          "value": "Daily or Almost Daily (HRA triggered)"
+        },
+        {
+          "sequence": 6,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 7,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3003,
+      "questionNumber": "CNC_HRSTV3SEATBELT_DD",
+      "id": 1100680,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1967-121300000002",
+      "required": true,
+      "type": 5,
+      "description": "Do you regularly wear a seatbelt/Do you regularly put your child in a car seat?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 3,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3004,
+      "questionNumber": "CNC_HRSTV2EXERCISE_DD",
+      "id": 1101037,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7305-110610000000",
+      "required": true,
+      "type": 5,
+      "description": "In the past week, how many days have you done 30 minutes or more of physical activity, which raised your heart and breathing rate? (Sports, exercise, brisk walking or cycling, but not housework or physical activity that may be part of your job)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 4,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "7 days"
+        },
+        {
+          "sequence": 2,
+          "value": "6 days"
+        },
+        {
+          "sequence": 3,
+          "value": "5 days"
+        },
+        {
+          "sequence": 4,
+          "value": "4 days"
+        },
+        {
+          "sequence": 5,
+          "value": "3 days"
+        },
+        {
+          "sequence": 6,
+          "value": "2 days"
+        },
+        {
+          "sequence": 7,
+          "value": "1 days"
+        },
+        {
+          "sequence": 8,
+          "value": "0 days"
+        },
+        {
+          "sequence": 9,
+          "value": "N/A"
+        },
+        {
+          "sequence": 10,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 11,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3005,
+      "questionNumber": "CNC_HRSTV3RECDRUGS_DD",
+      "id": 1100731,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1967-957790000001",
+      "required": true,
+      "type": 5,
+      "description": "In the past twelve (12) months have you used recreational drugs?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 5,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3006,
+      "questionNumber": "CNC_HRSTV3WELLVISIT_DD",
+      "id": 1100651,
+      "sourceSystemQuestionId": "aq3py091-2523-1631-1968-665630000001",
+      "required": true,
+      "type": 5,
+      "description": "Have you had a Well Child/Well Woman/Well Man exam in the past twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 6,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 4,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 5,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3007,
+      "questionNumber": "CNC_HARMHITTHREATEN_DD",
+      "id": 1101149,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7298-408800000000",
+      "required": true,
+      "type": 5,
+      "description": "Because difficult relationships can cause health problems, we are asking all of our patients the following question: Does a partner, or anyone at home, hurt, hit, or threaten you?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 7,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes (HRA tirggered if \"Yes\")"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 3008,
+      "questionNumber": "CNC_HRSTV2SCOREHEALTHLIFESTYL;E_DD",
+      "id": 1101104,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7297-488910000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the Total Score for the Health Lifestyle 6 or more? (HRA triggered if \"Yes\")",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Health Lifestyle",
+      "tabsequence": 3,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 8,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 4000,
+      "questionNumber": "CNC_HRSTV2NUMBER_TXT",
+      "id": 1100613,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3759-612710000000",
+      "required": false,
+      "type": 16,
+      "description": "Enter Number",
+      "displaydetail": false,
+      "conditionalanswervalue": "Enter number",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": 1101639,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4000,
+      "questionNumber": "CNC_HRSTV2SAFEPLACE_DD",
+      "id": 1101535,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7295-587800000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have a regular, safe place where you sleep and store your things?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No (HRA triggered if \"No\")"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4001,
+      "questionNumber": "CNC_HRSTV2EMPLOYMENTSATUS_DD",
+      "id": 1100953,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7289-963360000000",
+      "required": true,
+      "type": 5,
+      "description": "What is your Employment Status?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 1,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Employed"
+        },
+        {
+          "sequence": 2,
+          "value": "Unemployed, actively seeking employment"
+        },
+        {
+          "sequence": 3,
+          "value": "Unemployed not seeking employment"
+        },
+        {
+          "sequence": 4,
+          "value": "Unemployed or retired, but may want to seek employment"
+        },
+        {
+          "sequence": 5,
+          "value": "Retired"
+        },
+        {
+          "sequence": 6,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 7,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4002,
+      "questionNumber": "CNC_HRSVT2SOCIALSECRITYDISAILITY_DD",
+      "id": 1101521,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7288-189760000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you have a Social Security Disability Determination?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 2,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 4,
+          "value": "Member disconnected"
+        }
+      ]
+    },
+    {
+      "order": 4003,
+      "questionNumber": "CNC_HRSTV2LEGALPROBLEMS_DD",
+      "id": 1101388,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7285-724080000003",
+      "required": true,
+      "type": 5,
+      "description": "Do you have any legal problems, or are you currently on probation or parole?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 3,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4004,
+      "questionNumber": "CNC_HRSTV2HELPREADING_DD",
+      "id": 1100563,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7280-251020000000",
+      "required": true,
+      "type": 5,
+      "description": "How often do you need to have someone help you when you read instructions, pamphlets, or other written material from your doctor or pharmacy?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 4,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Never"
+        },
+        {
+          "sequence": 2,
+          "value": "Sometimes"
+        },
+        {
+          "sequence": 3,
+          "value": "Usually"
+        },
+        {
+          "sequence": 4,
+          "value": "Always"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4005,
+      "questionNumber": "CNC_HRSTV2FOODSTAMPSWIC_DD",
+      "id": 1100804,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7277-108280000000",
+      "required": true,
+      "type": 5,
+      "description": "Are you currently receiving supports for healthy eating? (Supplemental Nutrition Assistance Program (SNAP), Food Stamps, Special Supplemental Food Program for Women, Infants and Children (WIC), etc.)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 5,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "No"
+        },
+        {
+          "sequence": 2,
+          "value": "Yes"
+        },
+        {
+          "sequence": 3,
+          "value": "No, but would like to"
+        },
+        {
+          "sequence": 4,
+          "value": "Don't know"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4006,
+      "questionNumber": "CNC_HRSTV2_EDUCATION_DD",
+      "id": 1100650,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7270-435260000000",
+      "required": true,
+      "type": 5,
+      "description": "What is your highest level of education?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 6,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Some high school"
+        },
+        {
+          "sequence": 2,
+          "value": "High school diploma or GED"
+        },
+        {
+          "sequence": 3,
+          "value": "Trade school"
+        },
+        {
+          "sequence": 4,
+          "value": "Some college"
+        },
+        {
+          "sequence": 5,
+          "value": "College degree"
+        },
+        {
+          "sequence": 6,
+          "value": "More than a college degree"
+        },
+        {
+          "sequence": 7,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 8,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4007,
+      "questionNumber": "CNC_HRSVT2PAST30DAYSLIVING_LABEL",
+      "id": 1100489,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7269-161470000000",
+      "required": false,
+      "type": 7,
+      "description": "Within the past 30 days, where have you been living? (may select multiple options)",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 7,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4008,
+      "questionNumber": "CNC_HRSTV2OWNEDRENTEDHOME_CKBX",
+      "id": 1100536,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3777-465580000000",
+      "required": false,
+      "type": 10,
+      "description": "Owned or rented home",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 8,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4009,
+      "questionNumber": "CNC_HRSTV2SOMEONEELSEHOME_CKBX",
+      "id": 1100309,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3776-626330000000",
+      "required": false,
+      "type": 10,
+      "description": "Stayed at someone else's home",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 9,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4010,
+      "questionNumber": "CNC_HRSTV2HOMELESS_CKBX",
+      "id": 1100670,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3775-799810000000",
+      "required": false,
+      "type": 10,
+      "description": "Homeless",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 10,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4011,
+      "questionNumber": "CNC_HRSTV2GROUPHOME_CKBX",
+      "id": 1100873,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3774-869290000000",
+      "required": false,
+      "type": 10,
+      "description": "Group home setting",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 11,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4012,
+      "questionNumber": "CNC_HRSTV2TANSITIONALLIVINGTEMPORATRYSHELTER_CKBX",
+      "id": 1100618,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3774-069380000000",
+      "required": false,
+      "type": 10,
+      "description": "Transitional living facility or temporary emergency shelter",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 12,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4013,
+      "questionNumber": "CNC_HRSTV2HOTEL_CKBX",
+      "id": 1101112,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3773-158940000000",
+      "required": false,
+      "type": 10,
+      "description": "Hotel",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 13,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4014,
+      "questionNumber": "CNC_HRSTV2OTHER_CKBX",
+      "id": 1101264,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3772-398030000000",
+      "required": false,
+      "type": 10,
+      "description": "Other",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 14,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4015,
+      "questionNumber": "CNC_HRSTV2REFUSEDANS_CKBX",
+      "id": 1101336,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7245-269870000000",
+      "required": false,
+      "type": 10,
+      "description": "Refused to answer",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 15,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4016,
+      "questionNumber": "CNC_HRSTV2DISCNTCALL_CKBX",
+      "id": 1101749,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-7244-536940000000",
+      "required": false,
+      "type": 10,
+      "description": "Member disconnected call",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 16,
+      "availableAnswers": [
+        {
+          "sequence": -1,
+          "value": "Answer optional, not indicated."
+        }
+      ]
+    },
+    {
+      "order": 4017,
+      "questionNumber": "CNC_HRSTV2NUMBEROFADDRESSES_CONDD",
+      "id": 1101639,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3768-231020000000",
+      "required": true,
+      "type": 5,
+      "description": "How many addresses did you have in the past twelve (12) months?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 17,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Enter number"
+        },
+        {
+          "sequence": 2,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 3,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4018,
+      "questionNumber": "CNC_HRSTV3KAIFEMPLOYED_DD",
+      "id": 1101338,
+      "sourceSystemQuestionId": "zjt68zr6-8856-3634-8404-109820000000",
+      "required": true,
+      "type": 5,
+      "description": "If employed, do you feel that you are employed adequately based on your skills and knowledge?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 18,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4019,
+      "questionNumber": "CNC_HRSTV2PAYINGBILLS_DD",
+      "id": 1101458,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3201-187050000000",
+      "required": true,
+      "type": 5,
+      "description": "Do you worry about paying your bills?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 19,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4020,
+      "questionNumber": "CNC_HRSTV2FINANCIALASSISTANCE_DD",
+      "id": 1100496,
+      "sourceSystemQuestionId": "qum97x09-4712-7629-8112-735080000000",
+      "required": true,
+      "type": 5,
+      "description": "Would you like to learn more about available financial assistance programs?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 20,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        },
+        {
+          "sequence": 3,
+          "value": "N/A"
+        },
+        {
+          "sequence": 4,
+          "value": "Unsure"
+        },
+        {
+          "sequence": 5,
+          "value": "Refused to answer"
+        },
+        {
+          "sequence": 6,
+          "value": "Member disconnected call"
+        }
+      ]
+    },
+    {
+      "order": 4021,
+      "questionNumber": "CNC_HRSTV2TTLESCORE4ORMORE_DD",
+      "id": 1101707,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3195-777550000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the Total Score for the Home/Employment 4 or more? (HRA triggered if \"Yes\")",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Home/Employment",
+      "tabsequence": 4,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 21,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 5000,
+      "questionNumber": "CNC_HRSTV2TOTALWTSCORE_DD",
+      "id": 1100971,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3194-090770000000",
+      "required": true,
+      "type": 5,
+      "description": "Is the Total weighted Score \u003E=23? (HRA triggered if \"Yes\")",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Total Assessment Score",
+      "tabsequence": 5,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 0,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Yes"
+        },
+        {
+          "sequence": 2,
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "order": 5001,
+      "questionNumber": "CNC_HRSTV2HRATRIGGERED_DD",
+      "id": 1100863,
+      "sourceSystemQuestionId": "8x44r4p5-5038-9629-3191-067460000000",
+      "required": true,
+      "type": 5,
+      "description": "If HRA triggered, does member agree or refuse to complete?",
+      "displaydetail": false,
+      "conditionalanswervalue": "Answer optional, not indicated.",
+      "questionGroupLabel": "Total Assessment Score",
+      "tabsequence": 5,
+      "conditionalanswervalueid": -1,
+      "questionsequence": 1,
+      "availableAnswers": [
+        {
+          "sequence": 1,
+          "value": "Agree"
+        },
+        {
+          "sequence": 2,
+          "value": "Refuse"
+        }
+      ]
+    }
+  ]
+}
