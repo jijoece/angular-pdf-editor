@@ -21,7 +21,7 @@ export class DynamicFormComponent {
   constructor(private dataService: DataService, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.dataService.getData().subscribe(
+    this.dataService.getData("/assets/Adult.json").subscribe(
       response => {
         console.log("data", response);
         this.data = response;

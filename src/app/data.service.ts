@@ -11,8 +11,8 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getData(): Observable<any> {
-    return this.http.get<any>(this.jsonFileUrl);
+  getData(jsonFileUrl:string): Observable<any> {
+    return this.http.get<any>(jsonFileUrl);
   }
   
 }

@@ -17,6 +17,11 @@ import { FormlyComponent } from './formly/formly.component';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyKendoModule } from '@ngx-formly/kendo';
 import { LabelComponent } from './formly/label.component';
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormlyTcComponent } from './formly-tc/formly-tc.component';
+
+
 
 
 @NgModule({
@@ -31,6 +36,7 @@ import { LabelComponent } from './formly/label.component';
     DynamicFormComponent,
     NgDynamicFormComponent,
     FormlyComponent,
+    FormlyTcComponent,
     
   ],
   imports: [
@@ -45,6 +51,8 @@ import { LabelComponent } from './formly/label.component';
       ]
     }),
     FormlyKendoModule,
+    ButtonsModule,
+    BrowserAnimationsModule,
      
   ],
   providers: [],

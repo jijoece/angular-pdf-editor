@@ -2,32 +2,32 @@ import { Component } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormlyFieldConfig } from '@ngx-formly/core';
 import { DataService } from '../data.service';
-import { Assessment, FormField } from '../shared/interfaces';
+import { QuestionItem, FormField } from '../shared/interfaces';
 
 @Component({
-  selector: 'app-formly',
-  templateUrl: './formly.component.html',
-  styleUrls: ['./formly.component.css'],
+  selector: 'app-formly-tc',
+  templateUrl: './formly-tc.component.html',
+  styleUrls: ['./formly-tc.component.css'],
 })
-export class FormlyComponent {
+export class FormlyTcComponent {
   form = new FormGroup({});
-  data!: Assessment;
+  data!: QuestionItem[];
   fields: FormlyFieldConfig[] = [];
   model!: FormField;
   counter = 0;
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.dataService.getData("/assets/Adult.json").subscribe((response) => {
+    this.dataService.getData("/assets/Adult-Trucare.json").subscribe((response) => {
       console.log('data', response);
       this.data = response;
       this.createForm();
     });
   }
   createForm() {
-    this.data.questions.forEach((question) => {
+    this.data.forEach((question) => {
       
-      if (question.questionsequence > 7 && question.questionsequence<35) {
+      if (question.Question_GroupOrder>1) {
         this.counter++;
         if(question.type === 5){
           this.fields.push({

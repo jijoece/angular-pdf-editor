@@ -22,6 +22,8 @@
     "@angular/router": "^16.2.0",
     "@ng-dynamic-forms/core": "^18.0.0",
     "@ng-dynamic-forms/ui-material": "^18.0.0",
+    "@ngx-formly/core": "^6.0.0",
+    "@ngx-formly/kendo": "^6.3.6",
     "ng-dynamic-forms": "^0.0.21",
     "ngx-extended-pdf-viewer": "^21.3.5",
     "pdf-lib": "^1.17.1",
@@ -29,8 +31,14 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0",
-    "@ngx-formly/core": "^6.0.0",
-    "@ngx-formly/kendo": "^6.0.0"
+    "@progress/kendo-licensing": "^1.0.2",
+    "@progress/kendo-angular-common": "16.8.0",
+    "@progress/kendo-angular-l10n": "16.8.0",
+    "@progress/kendo-angular-popup": "16.8.0",
+    "@progress/kendo-angular-icons": "16.8.0",
+    "@progress/kendo-svg-icons": "^3.0.0",
+    "@angular/localize": "^16.2.0",
+    "@progress/kendo-theme-default": "^8.2.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.6",
