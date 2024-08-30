@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    height: 70px;
+  }
+  
+  .item {
+    flex: 1;
+  }

@@ -5,6 +5,8 @@ import { PdfEditorComponent } from './pdf-editor/pdf-editor.component';
 import { PdfCreatorComponent } from './pdf-creator/pdf-creator.component';
 import { NgxPdfEditorComponent } from './ngx-pdf-editor/ngx-pdf-editor.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { NgDynamicFormComponent } from './ng-dynamic-form/ng-dynamic-form.component';
+import { FormlyComponent } from './formly/formly.component';
 
 const routes: Routes = [
   { path: 'pdf-viewer', component: PdfViewerComponent },
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'pdf-creator', component: PdfCreatorComponent },
   { path: 'ngx-pdf-editor', component: NgxPdfEditorComponent },
   { path: 'dynamic-form', component: DynamicFormComponent },
+  { path: 'ng-dynamic-form', component: NgDynamicFormComponent },
+  { path: 'formly', component: FormlyComponent },
   
   { path: '', redirectTo: 'ngx-pdf-editor', pathMatch: 'full' },
   { path: '**', redirectTo: '/pdf-editor' }

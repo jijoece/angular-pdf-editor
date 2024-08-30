@@ -12,6 +12,11 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgDynamicFormComponent } from './ng-dynamic-form/ng-dynamic-form.component';
+import { FormlyComponent } from './formly/formly.component';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyKendoModule } from '@ngx-formly/kendo';
+import { LabelComponent } from './formly/label.component';
 
 
 @NgModule({
@@ -24,6 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     NgxPdfEditorComponent,
     ExamplePdfViewerComponent,
     DynamicFormComponent,
+    NgDynamicFormComponent,
+    FormlyComponent,
     
   ],
   imports: [
@@ -31,7 +38,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     NgxExtendedPdfViewerModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    FormlyModule.forRoot({
+      types: [
+        { name: 'label', component: LabelComponent }
+      ]
+    }),
+    FormlyKendoModule,
+     
   ],
   providers: [],
   bootstrap: [AppComponent]

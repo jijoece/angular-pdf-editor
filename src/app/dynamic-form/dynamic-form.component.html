@@ -1,4 +1,4 @@
-<form [formGroup]="form" (ngSubmit)="onSubmit()">
+<!-- <form [formGroup]="dynamicForm" (ngSubmit)="onSubmit()">
     <div *ngFor="let field of formFields">
         <label [attr.for]="field.name">{{ field.label }}</label>
 
@@ -10,5 +10,24 @@
 
     </div>
 
-    <button type="submit" [disabled]="form.invalid">Submit</button>
-</form>
+    <button type="submit" [disabled]="dynamicForm.invalid">Submit</button>
+</form> -->
+
+<form [formGroup]="dynamicForm" (ngSubmit)="onSubmit()" *ngIf="data">
+    <div formArrayName="fields">
+      <div *ngFor="let field of fields.controls; let i = index">
+        <ng-container [ngSwitch]="field.value.type">
+          <div *ngSwitchCase="'text'">
+            <label>{{ field.value.label }}</label>
+            <input type="text" [formControlName]="i">
+          </div>
+          <div *ngSwitchCase="'email'">
+            <label>{{ field.value.label }}</label>
+            <input type="email" [formControlName]="i">
+          </div>
+          <!-- Add more cases for different field types if needed -->
+        </ng-container>
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  private jsonFileUrl = 'assets/Adult.json'; // Path to your JSON file
+  private jsonFileUrl = '/assets/Adult.json'; // Path to your JSON file
 
   constructor(private http: HttpClient) { }
 
