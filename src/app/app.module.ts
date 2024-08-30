@@ -11,6 +11,7 @@ import { NgxPdfEditorComponent } from './ngx-pdf-editor/ngx-pdf-editor.component
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxExtendedPdfViewerModule
+    NgxExtendedPdfViewerModule,
+    ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,16 +1,11 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
-    <div *ngFor="let field of data">
+    <div *ngFor="let field of formFields">
         <label [attr.for]="field.name">{{ field.label }}</label>
 
 
         <ng-container [ngSwitch]="field.type">
             <input *ngSwitchCase="'text'" [formControlName]="field.name" [attr.type]="field.type">
             <input *ngSwitchCase="'checkbox'" [formControlName]="field.name" [attr.type]="field.type">
-        </ng-container>
-
-        <select *ngSwitchCase="'select'" [formControlName]="field.name">
-            <option *ngFor="let option of field.options" [value]="option.value">{{ option.label }}</option>
-        </select>
         </ng-container>
 
     </div>
