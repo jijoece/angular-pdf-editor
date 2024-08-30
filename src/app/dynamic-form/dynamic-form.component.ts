@@ -30,15 +30,19 @@ export class DynamicFormComponent {
   private createForm(): void {
     const formGroup: { [key: string]: FormControl } = {};
 
-    this.data.forEach((field: { type: string; name: string | number; value: any; }) => {
+    this.data.questions.forEach((field: { type: string; name: string | number; value: any; }) => {
+      if(field.questionsequence>8){
+        field.label = field.description;
 
-      if (field.type === 'checkbox') {
-        formGroup[field.name] = new FormControl(field.value );
-      } else {
-        formGroup[field.name] = new FormControl(field.value);
+      if (field.type === '5') {
+        field.type = 'checkbox'
+       
+      } else if(field.type === '7'){
+        field.type = 'text'
       }
+      formGroup[field.name] = new FormControl(field.sourceSystemQuestionId );
     });
-
+  }
     this.form = this.formBuilder.group(formGroup);
   }
 
