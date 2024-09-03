@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    height: 70px;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px; /* Optional: Set a max-width to control form width */
+    margin: auto;
+  }
+  
+  /* Adjust column widths */
+  .form-col {
+    /* flex: 1 0 20%; Takes up approximately 1/4 of the container width
+    max-width: 20%; /* Ensures fields don't grow larger */
+    /* margin-bottom: 16px; Optional: Spacing between rows */ 
+   
+        flex: 1 1 10% !important; /* Takes approximately 1/4 of the container width */
+        max-width: 20%; /* Ensures a minimum width for each field */
+        box-sizing: border-box; /* Prevents padding/margin from affecting width */
+  }
+
+  /* Reduce the size of the form field labels */
+.k-form-field .k-form-field-label .mat-body, .mat-body-2, .mat-typography .mat-body, .mat-typography .mat-body-2, .mat-typography{
+    font-size: 8px !important; /* Adjust the font size as needed */
+    font-weight: normal; /* Optional: Adjust font weight */
+  }
+  
+  /* Optional: Additional styling */
+  .k-form-field {
+    margin-bottom: 16px; /* Space between form fields */
+  }
+  .form-container {
+    max-height: 800px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 16px; /* Optional: Add padding for aesthetics */
+    border: 1px solid #ccc; /* Optional: Add border for visual separation */
+    border-radius: 4px; /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+  }

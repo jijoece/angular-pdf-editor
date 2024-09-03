@@ -20,9 +20,7 @@ import { LabelComponent } from './formly/label.component';
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormlyTcComponent } from './formly-tc/formly-tc.component';
-
-
-
+import { FormlyTcDComponent } from './formly-tc-d/formly-tc-d.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +35,7 @@ import { FormlyTcComponent } from './formly-tc/formly-tc.component';
     NgDynamicFormComponent,
     FormlyComponent,
     FormlyTcComponent,
-    
+    FormlyTcDComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,16 +44,13 @@ import { FormlyTcComponent } from './formly-tc/formly-tc.component';
     NgxExtendedPdfViewerModule,
     ReactiveFormsModule,
     FormlyModule.forRoot({
-      types: [
-        { name: 'label', component: LabelComponent }
-      ]
+      types: [{ name: 'label', component: LabelComponent }],
     }),
     FormlyKendoModule,
     ButtonsModule,
     BrowserAnimationsModule,
-     
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
