@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormlyFieldConfig } from '@ngx-formly/core';
 import { DataService } from '../data.service';
-import { QuestionItem, FormField } from '../shared/interfaces';
+import { QuestionItem, FormField, QuestionData } from '../shared/interfaces';
 
 @Component({
   selector: 'app-formly-tc',
@@ -11,61 +11,62 @@ import { QuestionItem, FormField } from '../shared/interfaces';
 })
 export class FormlyTcComponent {
   form = new FormGroup({});
-  data!: QuestionItem[];
+  data!: QuestionData[];
   fields: FormlyFieldConfig[] = [];
   model!: FormField;
   counter = 0;
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.dataService.getData("/assets/Adult-Trucare.json").subscribe((response) => {
-      console.log('data', response);
+    this.dataService.getData('/assets/Adult-tc.json').subscribe((response) => {
+      //console.log('data', response);
       this.data = response;
+      //console.log(JSON.stringify(this.dataService.transformData(response)));
       this.createForm();
     });
   }
   createForm() {
     this.data.forEach((question) => {
-      
-      if (question.Question_GroupOrder>1) {
-        this.counter++;
-        if(question.type === 5){
+      if (question.Question_GroupOrder > 2 || (question.Question_GroupOrder ===2 && question.Question_Order>= 90000000)) {
+        if (question.Type === 'DROPDOWN_LIST') {
+          this.counter++;
           this.fields.push({
-            key: question.sourceSystemQuestionId,
+            key: question.AssessmentQuestionDefinitionID,
             type: 'label',
             props: {
-              label: this.counter+". "+question.description,             
-            },            
+              label: this.counter + '. ' + question.Question,
+            },
           });
-          question.availableAnswers.forEach(answer =>{
+
+          question.MetaOptions?.forEach((answer) => {
             this.fields.push({
-              key: question.sourceSystemQuestionId+answer.sequence,
+              key: answer.MetaOption_ID,
               type: 'checkbox',
               props: {
-                label: answer.value,
+                label: answer.MetaOption_Value,
                 placeholder: '',
                 required: false,
               },
-              className: 'form-col'
+              className: 'form-col',
             });
-          })
-        }
-        else{
+          });
+        } else if (question.Type === 'TEXT_FIELD') {
+          this.counter++;
           this.fields.push({
-            key: question.sourceSystemQuestionId,
+            key: question.AssessmentQuestionDefinitionID,
             type: 'input',
             props: {
-              label: this.counter+". "+question.description,
+              label: this.counter + '. ' + question.Question,
               placeholder: '',
               required: false,
-            },           
+            },
           });
         }
-        
+
         this.model = {
-          name: question.sourceSystemQuestionId,
-          type: question.type === 5 ? 'checkbox' : 'input',
-          label: question.description,
+          name: question.AssessmentQuestionDefinitionID,
+          type: question.Type,
+          label: question.Question,
         };
       }
     });

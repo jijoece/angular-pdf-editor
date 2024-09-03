@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+https://centene-my.sharepoint.com/personal/cn239533_centene_com/_layouts/15/SkySyncRedir.aspx?Type=2&ResourceId=f076397e00fa4f6991c9cf4e90ea3f9f&CallerScenarioId=OneNote-Prod&CallerId=Sync-Windows
