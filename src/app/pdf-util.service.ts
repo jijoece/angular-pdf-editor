@@ -19,6 +19,9 @@ export class PdfUtilService {
 
     fields.forEach(field => {
       console.log(field.getName());
+      // if(field.getName()=="Q2A2"){
+      //   field. = "";
+      // }
 
     });
 
